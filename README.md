@@ -11,11 +11,12 @@ Copy the script and change the folder and file variables according to the folder
 Note here that if you are using an external storage device, you will have to mount the external device to a specific location using mount command. If the device is identified as `/dev/sdb1` the process to mount it to `/mnt/device_name` will be-
 
 ```console
-user@linux:~$ mkdir /mnt/device_name
-user@linux:~$ sudo mount /dev/sdb1 /mnt/device_name
+user@linux:~$ mkdir /mnt/backup-media
+user@linux:~$ sudo mount /dev/sdb1 /mnt/backup-media
 ```
+For more information on mounting, check [this](https://www.fosslinux.com/104962/how-to-mount-and-manage-external-storage-devices-on-ubuntu.htm) resource.
 
-Make the script executable by running-
+Now, make the `backup_code.sh` script executable by running-
 
 ```console
 user@linux:~$ chmod +x /home/user/backup-script.sh

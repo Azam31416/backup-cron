@@ -42,7 +42,7 @@ This will set the script to run everyday at 2:00 AM.
 For more information on how crontabs work and how to set them up, check [this](https://www.uptimia.com/questions/how-to-install-crontab-in-ubuntu) resource.
 
 ## Areas of improvement
-* Transferring data to remote server
+* Transferring data to remote server (Checksum validation for integrity)
 * Adding encryption
 * Old log deletion
-* Checksum validation for integrity
+* Updates via email.
